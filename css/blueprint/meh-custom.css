@@ -98,7 +98,7 @@ h4 img, h5 img, h6 img {
 
 .large      { font-size: 1.1em; line-height: 1.5em; margin-bottom: 1.5em; }
 
-p           { margin: 0 0 1.5em; } 
+p           { margin: 0 0 1.5em; clear:both} 
 p.last      { margin-bottom: 0; }  
 p img       { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }  
 p.pullquote { color: #4B1B00; font-size: 3em; font-family: Georgia, Serif; } /*For front page pull quote*/ 
@@ -255,6 +255,7 @@ div.photofloatr {
     /* border: thin silver solid; */
     margin: 0.5em;
     padding: 0.5em;
+    clear:left
 }
 
 div.photofloatl {
@@ -262,6 +263,7 @@ div.photofloatl {
     /* border: thin silver solid; */
     margin: 0.5em;
     padding: 0.5em;
+    clear: right
 }
 
 div.photofloatc {
