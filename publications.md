@@ -55,7 +55,7 @@ systems that it must transform.
 
 #### Books
 
-1.  Mark Huberty and John Zysman. *From Religion to Reality: green
+1.  Mark Huberty and John Zysman, eds. *From Religion to Reality: green
     growth and sustainable prosperity*. Under contract, Stanford
     University Press. Forthcoming 2013.
 
