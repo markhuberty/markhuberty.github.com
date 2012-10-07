@@ -75,7 +75,7 @@ systems that it must transform.
     working paper available at
     [github](https://github.com/markhuberty/leghist.git). June 2012.
 2.  "Voting with your Tweet: Forecasting elections with social media
-    data".[Spring 2012 version](./files/twitter_paper.pdf.zip). [Poster,
+    data". *NEW* [Real-time predictions](http://californianewsservice.org/category/tweet-vote/) for the 2012 election. [Spring 2012 version](./files/twitter_paper.pdf.zip). [Poster,
     Society for Political Methodology Summer Meeting, July
     2011](./files/huberty_polmeth2011_poster.pdf).
 3.  ["Green growth as necessity and liability: The political economy of
