@@ -1,89 +1,96 @@
 ---
 layout: wide
-title: Mark Huberty
 ---
 
-More projects are available at my <a href="http://github.com/markhuberty/">GitHub</a>.
 
-<div class="column span-24 append-1">
-  <h3 class="title">The Berkeley Political
-    Science Compute Cluster </h3>
+More code can be found at my <a href="https://github.com/markhuberty/">Github</a>.		  
+		  </p>
+		<div id="content">
+		<div class="column span-10 append-2">
+		  <h3 class="title">The Berkeley Political
+		  Science Compute Cluster </h3>
 
-  <p>I am the administrator for the
-    Berkeley Political Science department's 
-    18-node compute cluster. For more
-    information on the cluster, go to the
-    cluster's <a href="http://pscluster.berkeley.edu" >homepage</a>.
-  </p>
-  <!--
-      <p>The cluster provides
-        significant improvements in the compute time
-        for a variety of statistical techniques,
-        including bootstrapping, <a
-		                    href="http://sekhon.berkeley.edu/matching/"
-		                    >Genetic Matching</a>, data mining, and other
-        similar parallelizable tasks. As of January 2010, we
-        have over 400 R packages installed, in
-        addition to tools for writing parallized
-        code in C, MP, FORTRAN, and Python.</p>
-      -->
-  <p>
-    The image below shows tests for the speed
-    improvement of Jas Sekhon's GenMatch
-    algorithm scaled across 1-17 nodes.
-    <img src="./images/slurmTest.png" width="300" >
-  </p>
-</div>
+		  <p>I am the administrator for the
+		  Berkeley Political Science department's 
+		  18-node compute cluster. For more
+		  information on the cluster, go to the
+		  cluster's <a href="http://pscluster.berkeley.edu" >homepage</a>.
+		  </p>
+		  <!--
+		  <p>The cluster provides
+		  significant improvements in the compute time
+		  for a variety of statistical techniques,
+		  including bootstrapping, <a
+		  href="http://sekhon.berkeley.edu/matching/"
+		   >Genetic Matching</a>, data mining, and other
+		  similar parallelizable tasks. As of January 2010, we
+		  have over 400 R packages installed, in
+		  addition to tools for writing parallized
+		  code in C, MP, FORTRAN, and Python.</p>
+		  -->
+		  <p>
+		  The image below shows tests for the speed
+		  improvement of Jas Sekhon's GenMatch
+		  algorithm scaled across 1-17 nodes.
+		  </p>
+
+		  <p>
+		  <img src="./images/slurmTest.png" width="100%" >
+		  </p>
+		  
+		  
+		</div>
+		
+		<div class="column span-10 last">
+
+		  <h3 class="title">Balance statistics and plots from <tt>GenMatch()</tt></h3>
+		  
+		  <p>I've developed some code to produce tables and figures of balance statistics from the output of the
+		  MatchBalance routine in the <a href="http://sekhon.berkeley.edu/matching" >Matching</a> package
+		  for <a href="http://www.r-project.org"
+		   >R</a>. My code builds on the work of <a
+		  href="http://www-personal.umich.edu/~titiunik/"
+		   >Rocio Titiunik</a> and <a href="http://cgibbons.berkeley.edu" >Charlie Gibbons</a>.
+		  </p>
+		  <p>
+		  You can download the code <a
+		  href="./files/balStatsPlot.R"
+		   >here</a>. You can also clone the <tt>git</tt> repository <a href="http://github.com/markhuberty/balStatsPlot">here</a>.To use it, source it in your R
+		  script via the <tt>source()</tt>
+		  function. More documentation is included in
+		  the comments section of the code.
+		  </p>
+		
+		
+		</div>
+
+		<div class="column span-10 append-2">
+		
+		<h3>Installing <tt>gputools</tt>
+		for R on a Macbook Pro</h3>
+		<p>The gputools package for R provides GPU-enabled versions of common
+		functions in R. As the documentation at the <a href="http://brainarray.mbni.med.umich.edu/Brainarray/Rgpgpu/" >gputools
+		website</a> shows, significant reductions in compute time are
+		possible. Installing the packages on a
+			Macbook Pro requires a little fiddling, which
+			I've documented here. The figure below shows
+			that you can achieve some substantial gains in
+			speed even with the rather wimpy GPU (nVidia
+			9400m) that comes with the stock Macbook.
+			  </p>
+			  <p>
+			  A full description of the installation is
+			available <a href="gputools.html" >here</a>. 
+			  </p>
+
+			  
+			  <img width="100%" src="./images/grangerResults.png" >
+
+		</div>
+		</div>
 
 
-<div class="container append-bottom">
-<div class="column span-24">
-<h3 class="title">Balance statistics and plots from <tt>GenMatch()</tt></h3>
-
-<p>I've developed some code to produce tables and figures of balance statistics from the output of the
-  MatchBalance routine in the <a href="http://sekhon.berkeley.edu/matching" >Matching</a> package
-  for <a href="http://www.r-project.org"
-	 >R</a>. My code builds on the work of <a
-		                                  href="http://www-personal.umich.edu/~titiunik/"
-		                                  >Rocio Titiunik</a> and <a href="http://cgibbons.berkeley.edu" >Charlie Gibbons</a>.
-</p>
-<p>
-  You can download the code <a
-		               href="./files/balStatsPlot.R"
-		               >here</a>. You can also clone the <tt>git</tt> repository <a href="http://github.com/markhuberty/balStatsPlot">here</a>.To use it, source it in your R
-  script via the <tt>source()</tt>
-  function. More documentation is included in
-  the comments section of the code.
-</p>
-</div>
-</div>
-
-<div class="container append-bottom">
-<div class="column span-24">
-<h3>Installing <tt>gputools</tt>
-  for R on a Macbook Pro</h3>
-<p>The gputools package for R provides GPU-enabled versions of common
-  functions in R. As the documentation at the <a href="http://brainarray.mbni.med.umich.edu/Brainarray/Rgpgpu/" >gputools
-    website</a> shows, significant reductions in compute time are
-  possible. Installing the packages on a
-  Macbook Pro requires a little fiddling, which
-  I've documented here. The figure below shows
-  that you can achieve some substantial gains in
-  speed even with the rather wimpy GPU (nVidia
-  9400m) that comes with the stock Macbook.
-</p>
-<p>
-  A full description of the installation is
-  available <a href="gputools.html" >here</a>. 
-</p>
-
-<div class="photofloatc">
-<p>
-  <img src="./images/grangerResults.png" align="left" width="300">
-</p>
-</div>
-
-
+<hr>
 <!-- <address><a href="http://markhuberty.berkeley.edu/">Mark Huberty &lt;markhuberty@berkeley.edu&gt;</a></address> -->
 <!-- <\!-- hhmts start -\-> Last modified: Sat May 22 10:56:24 PDT 2010 <\!-- hhmts end -\-> -->
 </body> </html>
