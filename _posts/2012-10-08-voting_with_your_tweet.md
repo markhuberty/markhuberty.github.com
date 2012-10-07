@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Voting with your tweet: 2012 edition
+title: Voting with your tweet, 2012 edition
 ---
 
 My [paper](http://markhuberty.berkeley.edu/files/twitter_paper.pdf.zip) on electoral prediction with Twitter suggested that it might be possible to accurately forecast US House of Representatives collections using Twitter mentions of the candidates. 
