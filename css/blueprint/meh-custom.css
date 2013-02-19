@@ -23,6 +23,25 @@ body {
   
 }
 
+body div.content code {
+    margin: 0 2px;
+    padding: 0px 5px;
+    border: 1px solid #eaeaea;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+}
+body div.content pre > code {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+body div.content .has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+}
+
 /* Banners, lead image and dividers */ 
 /*#ua_banner { 
 	height: 42px;
@@ -295,7 +314,7 @@ div.photofloatc {
 }
 
 #post code {
-    border: 1px solid #ddd;
+    boder: 1px solid #ddd;
     background-color: #eef;
     font-size: 85%;
     padding: 0 .2em;
