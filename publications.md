@@ -21,26 +21,23 @@ Links to published work and working papers are provided below.
 
 ### Dissertation
 
-My dissertation analyzes the political economy of climate change
-mitigation, with an emphasis on the dynamics of a low-emissions energy
-systems transformation. I demonstrate that serious emissions reduction
-requires the transformation, rather than modification, of modern energy
-systems. Building on that, I show that energy systems transformation has
-a unique logic that compounds the difficulty of long-term emissions
-reduction when pursued in isolation.
+My dissertation asks why anyone has succeeded at doing anything at all
+to combat climate change. The combination of radical technological
+change, large costs, and distant and diffuse benefits, should make the
+politics of climate policy intractable. But we see a variety of
+activity--in Europe, in some U.S. states, and elsewhere.
 
-But I also suggest that the technical and economic structure of the
-energy system may permit patterns of issue linkage that enable
-policymakers to connect long-term emissions reduction to shorter-term
-policy goals that deliver immediate and tangible benefits in domains
-like energy security or competitiveness. Those benefits can help
-insulate policy from political resistance by losers from climate change
-mitigation, and generate new interests supportive of policy continuity.
-I argue that this pattern will mean that successful climate policy will
-come to look more like industrial policy than environmental policy; will
-include emissions pricing as only one of a multitude of policy
-instruments; and will be as nationally idiosyncratic as the energy
-systems that it must transform.
+I show that policymakers have succeeded by yoking support for climate
+change to tangible benefits created by transforming today's fossil
+fuel-based energy systems. Renewable energy itself offers few obvious
+improvements over fossil fuels. But adopting it may require other
+changes--to the power grid, or energy markets, or industrial
+structure--that make us better off immediately. Delivering these
+benefits can help generate support for policy, and insulate it from
+attacks by those who'd prefer inaction. Hence successful climate
+policy won't look like some "optimal" carbon price. Instead, we should
+expect messy, perhaps circuitous, but ultimately politically stable
+industrial policies to prevail.
 
 ### Publications
 
