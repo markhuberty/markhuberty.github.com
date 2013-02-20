@@ -74,15 +74,17 @@ systems that it must transform.
 1.  "`leghist`: Automated legislative history analysis for R". Code and
     working paper available at
     [github](https://github.com/markhuberty/leghist.git). June 2012.
-2.  "Voting with your Tweet: Forecasting elections with social media
+2.  ["Varieties of low-emissions innovation"](/files/huberty_low_emissions_innovation.pdf). Presented at the 2012
+    International Studies Association conference.  
+3.  "Voting with your Tweet: Forecasting elections with social media
     data". *NEW* [Real-time predictions](http://californianewsservice.org/category/tweet-vote/) for the 2012 election. [Spring 2012 version](./files/twitter_paper.pdf.zip). [Poster,
     Society for Political Methodology Summer Meeting, July
     2011](./files/huberty_polmeth2011_poster.pdf).
-3.  ["Green growth as necessity and liability: The political economy of
+4.  ["Green growth as necessity and liability: The political economy of
     a low-carbon energy systems transformation in the European Union
     "](http://brie.berkeley.edu/publications/WP_200%20Green%20Growth%20as%20necessity.pdf).
     BRIE Working Paper no. 200. May 2011.
-4.  ["Green exports and the global product space: prospects for EU
+5.  ["Green exports and the global product space: prospects for EU
     industrial
     policy"](http://www.bruegel.org/publications/publication-detail/publication/556-green-exports-and-the-global-product-space-prospects-for-eu-industrial-policy/),
     with Georg Zachmann. Bruegel Working Paper 2011/07. May 2011.
