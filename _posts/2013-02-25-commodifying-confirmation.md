@@ -17,7 +17,7 @@ That's why most "data science" jobs today go looking for people with PhDs in sta
 
 Commoditization automates the tools and strips away the insight. In doing so, commodotization tempts us to believe that insight and tools are exchangeable. That intellectual error leads, almost certainly, to a search for results that confirm our own biases about the world, rather than those that teach us something new.[^fn-why-false] In doing so, it trivializes the challenge of big data, and undermines its promise.
 
-Does avoiding commodotization fix this? No. Organizations still matter, a problem I take up [here]({% post_url 2013-02-20-big-data-cudgel %}).
+Does avoiding commodotization fix this? No. Organizations still matter, a problem I take up [here]({% post_url 2013-02-26-big-data-cudgel %}).
 
 [^fn-norvig]: Peter Norvig's ["The Unreasonable Effectiveness of Data"](http://research.google.com/pubs/archive/35179.pdf) remains the best statement of the broad promise of ever-more data for delivering new analytics, produces, and services that continue the improvements we've already enjoyed. 
 
