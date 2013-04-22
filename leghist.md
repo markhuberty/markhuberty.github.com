@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: post
 title: Legislative history and plagiarism
 ---
 
