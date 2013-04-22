@@ -14,7 +14,7 @@ We can see an example below. In 2008, the European Union set out to reform its r
 From the figures below, we can see that the European Commission wrote most of the language in most of the policy domains in the final bill. The Parliament, though it tried to amend most of the bill to make it more environmentally-friendly, had relatively limited influence. 
 
 {% image plot_rese_2007_origin_heatmap.png %}
-    title: Influence over legislative outcomes in Europe's 2008 energy policy reforms
+    title: Influence over legislative outcomes in the 2008 European energy policy reforms
 {% endimage %}
 
 
