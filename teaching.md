@@ -3,7 +3,6 @@ layout: wide
 title: Teaching
 ---
 
-		<div class="container prepend-top">
 		<div class="column span-10 append-2">
 		  <h2>Methods courses</h2>
 
@@ -50,24 +49,7 @@ title: Teaching
 		   >Dates in postwar European political economy</a></p>
 		  </p>
 		  
-		  <!--   <h5>Writing</h5> -->
-		  <!--   <p>Henry Farrell has some extremely good -->
-		  <!--   suggestions for writing political science -->
-		  <!--   papers, which I highly recommend to my -->
-		  <!--   students. The original is <a -->
-		  <!--   href="http://www.henryfarrell.net/pol_science_essays.pdf" -->
-		  <!--    >here</a>.<\!--  My students may wish to look at a -\-> -->
-		  <!--   <\!-- 			  <a href="./files/pol_science_essays_MEH.pdf" -->
-		  <!--   >version</a> that contains my own editorial -->
-		  <!--   comment.  -\-> -->
-		  <!--   </p> -->
-		  <!--   <p> -->
-		  <!--   Those of you tempted to use a thesaurus to -->
-		  <!--   "improve" the quality of your prose should -->
-		  <!--   heed <a href="http://acephalous.typepad.com/acephalous/2006/02/all_scribes_uti.html" >the advice of Scott Eric Kaufman</a>. -->
-		  <!-- 	  </p> -->
-		  <!-- </div> -->
+
 		  </div>
 		  
 		  
-		  </div>
