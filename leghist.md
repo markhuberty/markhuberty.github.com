@@ -13,9 +13,7 @@ We can see an example below. In 2008, the European Union set out to reform its r
 
 From the figures below, we can see that the European Commission wrote most of the language in most of the policy domains in the final bill. The Parliament, though it tried to amend most of the bill to make it more environmentally-friendly, had relatively limited influence. 
 
-{% image plot_rese_2007_origin_heatmap.png %}
-    title: Influence over legislative outcomes in the 2008 European energy policy reforms
-{% endimage %}
+![Influence over legislative outcomes in the 2008 European energy policy reforms]({{ site.url }}/images/plot_rese_2007_origin_heatmap.png)
 
 
 `leghist` makes these insights, which could take days of careful work to uncover by hand, straightforward. `leghist` is still in development, but you can get the code at [github](https://github.com/markhuberty/leghist). 
