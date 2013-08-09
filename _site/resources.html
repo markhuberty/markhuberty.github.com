@@ -74,98 +74,74 @@
 <div class="container prepend-top">   
 
     
-    More code can be found at my <a href="https://github.com/markhuberty/">Github</a>.		  
-		  </p>
-		<div id="content">
-		<div class="column span-10 append-2">
-		  <h3 class="title">The Berkeley Political
-		  Science Compute Cluster </h3>
+    <p>More code can be found at my <a href='https://github.com/markhuberty/'>Github</a>.</p>
 
-		  <p>I am the administrator for the
-		  Berkeley Political Science department's 
-		  18-node compute cluster. For more
-		  information on the cluster, go to the
-		  cluster's <a href="http://pscluster.berkeley.edu" >homepage</a>.
-		  </p>
-		  <!--
-		  <p>The cluster provides
-		  significant improvements in the compute time
-		  for a variety of statistical techniques,
-		  including bootstrapping, <a
-		  href="http://sekhon.berkeley.edu/matching/"
-		   >Genetic Matching</a>, data mining, and other
-		  similar parallelizable tasks. As of January 2010, we
-		  have over 400 R packages installed, in
-		  addition to tools for writing parallized
-		  code in C, MP, FORTRAN, and Python.</p>
-		  -->
-		  <p>
-		  The image below shows tests for the speed
-		  improvement of Jas Sekhon's GenMatch
-		  algorithm scaled across 1-17 nodes.
-		  </p>
+<pre><code>	&lt;div class=&quot;column span-10 append-2&quot;&gt;
+	### The Berkeley Political Science Compute Cluster 
+    
+	&lt;p&gt;I am the administrator for the
+	Berkeley Political Science department&#39;s 
+	18-node compute cluster. For more
+	information on the cluster, go to the
+	cluster&#39;s &lt;a href=&quot;http://pscluster.berkeley.edu&quot; &gt;homepage&lt;/a&gt;.
+	&lt;/p&gt;
+	&lt;p&gt;
+	The image below shows tests for the speed
+	improvement of Jas Sekhon&#39;s GenMatch
+	algorithm scaled across 1-17 nodes.
+	&lt;/p&gt;
+    &lt;p&gt;
+    &lt;img src=&quot;./images/slurmTest.png&quot; width=&quot;100%&quot; &gt;
+    &lt;/p&gt;
+    
+	&lt;/div&gt;
+	
+	&lt;div class=&quot;column span-10 last&quot;&gt;
 
-		  <p>
-		  <img src="./images/slurmTest.png" width="100%" >
-		  </p>
+	  &lt;h3 class=&quot;title&quot;&gt;Balance statistics and plots from &lt;tt&gt;GenMatch()&lt;/tt&gt;&lt;/h3&gt;
+	  
+	  &lt;p&gt;I&#39;ve developed some code to produce tables and figures of balance statistics from the output of the
+	  MatchBalance routine in the &lt;a href=&quot;http://sekhon.berkeley.edu/matching&quot; &gt;Matching&lt;/a&gt; package
+	  for &lt;a href=&quot;http://www.r-project.org&quot;
+	   &gt;R&lt;/a&gt;. My code builds on the work of &lt;a
+	  href=&quot;http://www-personal.umich.edu/~titiunik/&quot;
+	   &gt;Rocio Titiunik&lt;/a&gt; and &lt;a href=&quot;http://cgibbons.berkeley.edu&quot; &gt;Charlie Gibbons&lt;/a&gt;.
+	  &lt;/p&gt;
+	  &lt;p&gt;
+	  You can download the code &lt;a
+	  href=&quot;./files/balStatsPlot.R&quot;
+	   &gt;here&lt;/a&gt;. You can also clone the &lt;tt&gt;git&lt;/tt&gt; repository &lt;a href=&quot;http://github.com/markhuberty/balStatsPlot&quot;&gt;here&lt;/a&gt;.To use it, source it in your R
+	  script via the &lt;tt&gt;source()&lt;/tt&gt;
+	  function. More documentation is included in
+	  the comments section of the code.
+	  &lt;/p&gt;
+	
+	
+	&lt;/div&gt;
+
+	&lt;div class=&quot;column span-10 append-2&quot;&gt;
+	
+	&lt;h3&gt;Installing &lt;tt&gt;gputools&lt;/tt&gt;
+	for R on a Macbook Pro&lt;/h3&gt;
+	&lt;p&gt;The gputools package for R provides GPU-enabled versions of common
+	functions in R. As the documentation at the &lt;a href=&quot;http://brainarray.mbni.med.umich.edu/Brainarray/Rgpgpu/&quot; &gt;gputools
+	website&lt;/a&gt; shows, significant reductions in compute time are
+	possible. Installing the packages on a
+		Macbook Pro requires a little fiddling, which
+		I&#39;ve documented here. The figure below shows
+		that you can achieve some substantial gains in
+		speed even with the rather wimpy GPU (nVidia
+		9400m) that comes with the stock Macbook.
+		  &lt;/p&gt;
+		  &lt;p&gt;
+		  A full description of the installation is
+		available &lt;a href=&quot;gputools.html&quot; &gt;here&lt;/a&gt;. 
+		  &lt;/p&gt;
+
 		  
-		  
-		</div>
-		
-		<div class="column span-10 last">
+		  &lt;img width=&quot;100%&quot; src=&quot;./images/grangerResults.png&quot; &gt;
 
-		  <h3 class="title">Balance statistics and plots from <tt>GenMatch()</tt></h3>
-		  
-		  <p>I've developed some code to produce tables and figures of balance statistics from the output of the
-		  MatchBalance routine in the <a href="http://sekhon.berkeley.edu/matching" >Matching</a> package
-		  for <a href="http://www.r-project.org"
-		   >R</a>. My code builds on the work of <a
-		  href="http://www-personal.umich.edu/~titiunik/"
-		   >Rocio Titiunik</a> and <a href="http://cgibbons.berkeley.edu" >Charlie Gibbons</a>.
-		  </p>
-		  <p>
-		  You can download the code <a
-		  href="./files/balStatsPlot.R"
-		   >here</a>. You can also clone the <tt>git</tt> repository <a href="http://github.com/markhuberty/balStatsPlot">here</a>.To use it, source it in your R
-		  script via the <tt>source()</tt>
-		  function. More documentation is included in
-		  the comments section of the code.
-		  </p>
-		
-		
-		</div>
-
-		<div class="column span-10 append-2">
-		
-		<h3>Installing <tt>gputools</tt>
-		for R on a Macbook Pro</h3>
-		<p>The gputools package for R provides GPU-enabled versions of common
-		functions in R. As the documentation at the <a href="http://brainarray.mbni.med.umich.edu/Brainarray/Rgpgpu/" >gputools
-		website</a> shows, significant reductions in compute time are
-		possible. Installing the packages on a
-			Macbook Pro requires a little fiddling, which
-			I've documented here. The figure below shows
-			that you can achieve some substantial gains in
-			speed even with the rather wimpy GPU (nVidia
-			9400m) that comes with the stock Macbook.
-			  </p>
-			  <p>
-			  A full description of the installation is
-			available <a href="gputools.html" >here</a>. 
-			  </p>
-
-			  
-			  <img width="100%" src="./images/grangerResults.png" >
-
-		</div>
-		</div>
-
-
-<hr>
-<!-- <address><a href="http://markhuberty.berkeley.edu/">Mark Huberty &lt;markhuberty@berkeley.edu&gt;</a></address> -->
-<!-- <\!-- hhmts start -\-> Last modified: Sat May 22 10:56:24 PDT 2010 <\!-- hhmts end -\-> -->
-</body> </html>
-
+	&lt;/div&gt;</code></pre>
     
 
 </div>
