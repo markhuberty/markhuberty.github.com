@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<html lang="en"> 
+	<head> 
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+	  <title> 
+	    Mark Huberty
+	  </title> 
+	  <meta name="author" content="Mark Huberty"> 
+	  <meta name="keywords" content="Mark Huberty, Political
+	                                 Science, University of California, Berkeley"> 
+	  <meta name="description" content="Mark Huberty is a graduate
+                                         student in Political Science at
+                                         UC Berkeley"> 
+	  <meta name="robots" content="index, follow, noarchive"> 
+
+          <!--CSS data-->
+          <!-- General formatting -->
+          <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection"> 
+          <link rel="stylesheet" href="/css/blueprint/meh-custom.css"
+                rel="stylesheet" type="text/css">
+          <!-- Syntax highlighting -->
+          <link rel="stylesheet" href="/css/syntax.css" type="text/css">
+	  <script type="text/javascript">
+
+	    var _gaq = _gaq || [];
+	    _gaq.push(['_setAccount', 'UA-38678599-1']);
+	    _gaq.push(['_trackPageview']);
+	    
+	    (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	    })();
+	    
+	  </script>
+          <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+</head>
+
+<body>
+<!-- Headers --> 
+<div class="container"> 
+  <div class="column span-24"> 
+    <div id="menu_divider"> 
+      <h1 class="prepend-top alignLeft"> 
+	<a href="/index.html" title="Front Page">Mark Huberty</a>
+      </h1> 
+    </div><!-- MAIN MENU: Top horizontal menu of the site.  Use class="here" to turn the current page tab on --> 
+    <div id="mainMenu"> 
+      <ul class="floatLeft"> 
+        <li><a href="cv.html" title="CV">Resume</a></li>
+        <li> 
+	  <a href="/recent.html" title="Posts">Recent</a> 
+	</li> 
+	<li> 
+	  <a href="/publications.html" title="Research">Research</a> 
+	</li> 
+	<li> 
+	  <a href="/teaching.html" title="Courses and other Material">Teaching</a> 
+	</li>  
+	<li><a
+	       href="/resources.html"
+	       title="Code">Code</a></li> 
+	<li> 
+	  <a
+	     href="/contact.html"
+	     title="Contact information">Contact</a> 
+	</li> 
+      </ul> 
+    </div> 
+  </div> 
+</div>
+
+<div class="container prepend-top">   
+
+    
+    <div id="post">
+<p>Back in December, the <a href='http://hubwaydatachallenge.org/'>Hubway Data Challenge</a> released data on Boston&#8217;s Hubway bikeshare and asked people to do interesting stuff with it. The winning entries explored <a href='http://hubwaydatachallenge.org/submission/45/'>how much time Hubway saved</a> Bostonians, <a href='http://zsobhani.github.com/hubway-team-viz'>how bikes flowed through</a> the Hubway system, and <a href='http://hubwaydatachallenge.org/submission/56/'>how Boston&#8217;s relationship</a> with Hubway evolved over half a million trips.</p>
+
+<p>I wanted to ask a different question: how often do people go places together, where do they go, and do these trips differ from the rest of Hubway uses?</p>
+
+<p>To identify people traveling with a companion, I assumed that two trips that left from the same station at the same time, and arrived at the same station at the same time, were taken together. Of course, it could just be coincidence. But then it might also have been the start of a plot for a bad rom-com.</p>
+
+<p>With that assumption, 61,430 trips of the 552,030 trips in the dataset were taken with someone else. Here&#8217;s what we know about them.</p>
+
+<h3 id='people_who_travel_together_are_closer_in_age'>People who travel together are closer in age</h3>
+
+<p>Traveling companions differed in age by a median 2 years, compared with 9 years for a random pair of solo Hubway travelers.</p>
+<img alt='Distribution of age differences for traveling companions.' src='/images/plot_age_diff.png' title='Distribution of age differences for traveling companions.' />
+<h3 id='companions_favor_the_weekends'>Companions favor the weekends</h3>
+<img alt='Distribution of trips by weekday' src='/images/plot_trip_weekdays.png' title='Distribution of trips by weekday' />
+<h3 id='companions_left_later'>Companions left later&#8230;</h3>
+<img alt='Distribution of trips by weekday' src='/images/plot_departure_arrival_times.png' title='Distribution of trips by weekday' />
+<p>Readers paying close attention will also notice that companions were more likely to ride around very late at night. Post-night-out bike ride, anyone?</p>
+
+<h3 id='and_rode_slower'>&#8230;And rode slower</h3>
+<img alt='Distribution of trip speed' src='/images/plot_trip_speed.png' title='Distribution of trip speed' />
+<h3 id='they_also_likely_had_more_fun'>They also likely had more fun</h3>
+
+<ul>
+<li>Most popular stations for pairs: Arlington/Boyleston, at the corner of <a href='http://www.cityofboston.gov/freedomtrail/bostoncommon.asp'>Boston Common</a></li>
+
+<li>Most popular stations for solo travelers: <a href='http://www.south-station.net/'>South Station</a> commuter hub</li>
+</ul>
+
+<h2 id='bicycles_boston_and_companionship'>Bicycles, Boston, and Companionship</h2>
+
+<p>One big assumption later, it seems bicycles might be more than just tools of transportation. If bike share programs not only bring Bostonians to their destinations, but also brought them together, that can&#8217;t be a bad thing.</p>
+</div>
+
+<!-- <div id="related"> -->
+<!--   <h2>Related Posts</h2> -->
+<!--   <ul class="posts"> -->
+<!--      -->
+<!--       <li><span>07 Mar 2013</span> &raquo; <a href="/2013/03/07/haversine.html">Fast haversine distance in cython</a></li> -->
+<!--      -->
+<!--       <li><span>26 Feb 2013</span> &raquo; <a href="/2013/02/26/big-data-cudgel.html">Big Data is a Cudgel</a></li> -->
+<!--      -->
+<!--       <li><span>25 Feb 2013</span> &raquo; <a href="/2013/02/25/commodifying-confirmation.html">Commodifying confirmation bias</a></li> -->
+<!--      -->
+<!--   </ul> -->
+<!-- </div> -->
+
+<!-- MathJax stuff, taken from 
+  --https://github.com/cwoebker/.com/blob/master/_layouts/default.html -->
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>
+  MathJax.Hub.Config({
+  tex2jax: {
+  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+  });
+  MathJax.Hub.Queue(function() {
+  var all = MathJax.Hub.getAllJax(), i;
+  for(i=0; i < all.length; i += 1) {
+               all[i].SourceElement().parentNode.className += ' has-jax';
+               }
+               });
+</script>
+
+    
+
+</div>
+
+
+<!-- <address><a href="http://markhuberty.berkeley.edu/">Mark Huberty &lt;markhuberty@berkeley.edu&gt;</a></address> -->
+<!-- <\!-- hhmts start -\-> Last modified: Sat May 22 10:56:24 PDT 2010 <\!-- hhmts end -\-> -->
+</body>
+
+</html>
