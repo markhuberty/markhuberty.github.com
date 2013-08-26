@@ -43,6 +43,7 @@ industrial policies to prevail.
 
 #### Peer-reviewed Publications
 
+1. ["Multi-cycle forecasting of Congressional elections with social media"](/files/twitter_plead2013_final.pdf), [Workshop on Politics, Elections, and Data](https://sites.google.com/site/plead2013/), CIKM 2013. 
 1.  ["Testing the ownership society: ownership and voting in
     Britain"](http://dx.doi.org/10.1016/j.electstud.2011.07.006),
     *Electoral Studies* 30(4) 2011, pp 784-794.
