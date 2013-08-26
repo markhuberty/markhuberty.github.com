@@ -5,7 +5,7 @@ title: Mark Huberty
 
 
 
-<h3>Welcome </h3>
+### Welcome
 
 <p>
   I am a student of economic and political systems with a deep
@@ -15,8 +15,7 @@ title: Mark Huberty
   and am seeking employment in data science and analytics in the Bay Area.
 </p>
 
-<h3>Background</h3>
-<p>
+### Background
   In my research, I've worked on a range of projects at the
   intersection of computational social science, economics, and
   politics. In 2012, I issued <a href="http://californianewsservice.org/category/tweet-vote/">real-time election
@@ -30,20 +29,12 @@ title: Mark Huberty
   learning. Through these projects I've built a broad set of skills in
   <a href="http://r-project.org">R</a>, <a href="http://www.python.org">python</a>, <a href="http://pandas.pydata.org">pandas</a>,
   and data visualization.
-</p>
-<p>
-  I've
-  also <a href="./publications.html">written extensively</a> on the economic and political implications
-  of "green growth"--the idea that climate change investments will
-  save our environment and make us richer at the same time. 
-</p>
 
-<p>For a complete resume, see <a href="./cv.html">here.</a></p>
+I've
+also <a href="publications.html">written extensively</a> on the economic and political implications
+of "green growth"--the idea that climate change investments will
+save our environment and make us richer at the same time. 
+
+For a complete resume, see <a href="./cv.html">here.</a>
 
 
-
-
-
-<!-- <address><a href="http://markhuberty.berkeley.edu/">Mark Huberty &lt;markhuberty@berkeley.edu&gt;</a></address> -->
-<!-- <\!-- hhmts start -\-> Last modified: Sat May 22 10:56:24 PDT 2010 <\!-- hhmts end -\-> -->
-</body> </html>
